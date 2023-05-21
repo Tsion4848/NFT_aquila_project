@@ -17,7 +17,18 @@
   .navbar .left img {
     width: 70px;
   }
-  
+  .navbar .left button {
+    margin-left: 15px;
+    width: 90px;
+    background-color: #2e8933;
+    border-radius: 15px;
+    border: #2e8933;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
   .navbar .right {
     flex: 85%;
     height: 100%;
