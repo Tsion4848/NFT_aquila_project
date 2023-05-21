@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import mosque from '../assets/mosque.jpg'
 import CountDown from '../components/CountDown'
 import HistoryTable from '../components/HistoryTable'
@@ -48,15 +49,16 @@ const Mosque = () => {
         <p>Discover the splendor and beauty of persian architecture</p>
         <h3>by Amir Hossein Mirmoeini</h3>
         {/* <div>&nbsp;</div> */}
-        <button className='address'>Address</button>
+        <Link to="/mosqueAddress">
+          <button className='address'>Address</button>
+        </Link>
         {/* <div>&nbsp;</div> */}
         <div className="table">
           <h3 id='history'>Trading History</h3>
           <HistoryTable data = {data} />
         </div>   
         <div>&nbsp;</div>
-        <button className='makeOffer'>Make Offer</button>
-
+        <Link to="/offer"><button className='makeOffer'>Make Offer</button></Link>
         
       </div>
     </div>

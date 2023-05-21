@@ -24,6 +24,12 @@ import Lalibela from "./pages/Lalibela";
 import Squerrie from "./pages/Squerrie";
 import Baloo from "./pages/Baloo";
 import Lava from "./pages/Lava";
+import LalibelaAddress from "./pages/LalibelaAddress";
+import MosqeAddress from "./pages/MosqeAddress";
+import PurchaseSuccess from "./pages/PurchaseSuccess";
+import Offer from "./pages/Offer";
+import PersonalInfo from "./pages/PersonalInfo";
+import ContactSubmit from "./pages/ContactSubmit";
 
 // Router - if we want to add different pages to our app
 // Switch - to tell out Route that we only want to render one route at each time
@@ -55,7 +61,13 @@ function App() {
           <Route path="/lalibela" exact Component={Lalibela} />
           <Route path="/squerrie" exact Component={Squerrie} />
           <Route path="/baloo" exact Component={Baloo} />
-          <Route path="/lava" exact Component={Lava} />
+          <Route path="/lava" exact Component={Lava} /> 
+          <Route path="/mosqueAddress" exact Component={MosqeAddress} />
+          <Route path="/lalibelaAddress" exact Component={LalibelaAddress} />
+          <Route path="/offer" exact Component={Offer} />
+          <Route path="/purchaseSuccess" exact Component={PurchaseSuccess} />
+          <Route path="/personalInfo" exact Component={PersonalInfo} />
+          <Route path="/contactSubmit" exact Component={ContactSubmit} />
         </Routes>
         <Footer />
       </Router>  

@@ -15,7 +15,7 @@ function Help() {
         </div>
         <div className='middle' style={{ backgroundImage:`url(${helpImage})` }}></div>
         <div className='bottomRight'>
-            <h3>How to buy an NFT?</h3>
+            <h3>How to make offer for an NFT?</h3>
             <ul>
                 <li>as soon as you enter our site, there are a wide range of images that you can choose and buy.</li>
                 <li> Click the image you want to buy and click the make offer button </li>

@@ -66,3 +66,10 @@
     font-size: 27px;
     border: 0px;
   }
+  button {
+    cursor: pointer;
+  }
+  #link {
+    text-decoration: none;
+    color: black;
+  }

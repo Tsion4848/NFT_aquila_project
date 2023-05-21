@@ -2,6 +2,7 @@ import React from 'react'
 import squerrie from '../assets/squerrie.jpg'
 import CountDown from '../components/CountDown'
 import HistoryTable from '../components/HistoryTable'
+import { Link } from 'react-router-dom'
 import '../styles/PagesDesc.css'
 
 const Squerrie = () => {
@@ -48,15 +49,14 @@ const Squerrie = () => {
         <p>A ground squirrel smelling a flower</p>
         <h3>by Dick van Duijin</h3>
         {/* <div>&nbsp;</div> */}
-        <button className='address'>Address</button>
+        {/* <button className='address'>Address</button> */}
         {/* <div>&nbsp;</div> */}
         <div className="table">
           <h3 id='history'>Trading History</h3>
           <HistoryTable data = {data} />
         </div>   
         <div>&nbsp;</div>
-        <button className='makeOffer'>Make Offer</button>
-
+        <Link to="/offer"><button className='makeOffer'>Make Offer</button></Link>
         
       </div>
     </div>

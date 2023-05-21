@@ -1,5 +1,6 @@
 import React from 'react'
 import contactImage from '../assets/contact.jpg'
+import { Link } from 'react-router-dom'
 import '../styles/Contact.css'
 
 function Contact() {
@@ -15,7 +16,7 @@ function Contact() {
             <input name='email' placeholder='Enter email' type='email'/>
             <label htmlFor='feedback'>Message</label>
             <textarea rows="6" placeholder="Enter your message" name="feedback" required></textarea>
-            <button type="submit">Send</button>
+            <Link to="/contactSubmit"><button type="submit">Send</button></Link>
         </form>
       </div>
     </div>

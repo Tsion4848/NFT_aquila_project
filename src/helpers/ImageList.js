@@ -42,6 +42,8 @@ export const ImageList = [
         image: mosque,
         price: "2.2 ETH",
         description: "description",
+        lat: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/little",
@@ -49,13 +51,17 @@ export const ImageList = [
         image: little,
         price: "1.9 ETH",
         description: "description",
+        lat: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/crystal",
         name: "Crystal Sunset",
         image: crystal,
-        price: "7.8 ETH",
+        price: "5.5 ETH",
         description: "description",
+        lat: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/jawood",
@@ -63,6 +69,8 @@ export const ImageList = [
         image: jawoods,
         price: "1.5 ETH",
         description: "description",
+        lat: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/rico",
@@ -70,6 +78,8 @@ export const ImageList = [
         image: rico,
         price: "2.3 ETH",
         description: "description",
+        lat: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/reflexo",
@@ -77,6 +87,8 @@ export const ImageList = [
         image: reflexo,
         price: "2.9 ETH",
         description: "description",
+        lat: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/tigro",
@@ -84,6 +96,8 @@ export const ImageList = [
         image: tigro,
         price: "2.7 ETH",
         description: "description",
+        latitude: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/milkyway",
@@ -91,6 +105,8 @@ export const ImageList = [
         image: milkyway,
         price: "2.6 ETH",
         description: "description",
+        latitude: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/lalibela",
@@ -98,6 +114,8 @@ export const ImageList = [
         image: lalibela,
         price: "2.8 ETH",
         description: "description",
+        latitude: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/squerrie",
@@ -105,6 +123,8 @@ export const ImageList = [
         image: squerrie,
         price: "1.4 ETH",
         description: "description",
+        latitude: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/baloo",
@@ -112,6 +132,8 @@ export const ImageList = [
         image: baloo,
         price: "2.2 ETH",
         description: "description",
+        latitude: 38.7578,
+        lon: 8.9806,
     },
     {
         index: "/lava",
@@ -119,5 +141,7 @@ export const ImageList = [
         image: lava,
         price: "3.2 ETH",
         description: "description",
+        latitude: 38.7578,
+        lon: 8.9806,
     }
 ];

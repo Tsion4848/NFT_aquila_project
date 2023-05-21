@@ -2,8 +2,6 @@ import React, { useState } from 'react' // accept props and render ui based on t
 import { Link, Route, Router } from 'react-router-dom';
 
 function ImageItem({ index, image, name, price, description }) {
- console.log(index)
-  
   return (
     <div>
       <Link to={index} className='link'>

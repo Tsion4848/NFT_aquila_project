@@ -2,6 +2,7 @@ import React from 'react'
 import tigro from '../assets/tigro.jpg'
 import CountDown from '../components/CountDown'
 import HistoryTable from '../components/HistoryTable'
+import { Link } from 'react-router-dom'
 import '../styles/PagesDesc.css'
 
 const Tigro = () => {
@@ -48,15 +49,14 @@ const Tigro = () => {
         <p>The mother remains the most beautiful thing in this world, no matter how different the nature of the living being.</p>
         <h3>by Rikunow</h3>
         {/* <div>&nbsp;</div> */}
-        <button className='address'>Address</button>
+        {/* <button className='address'>Address</button> */}
         {/* <div>&nbsp;</div> */}
         <div className="table">
           <h3 id='history'>Trading History</h3>
           <HistoryTable data = {data} />
         </div>   
         <div>&nbsp;</div>
-        <button className='makeOffer'>Make Offer</button>
-
+        <Link to="/offer"><button className='makeOffer'>Make Offer</button></Link>
         
       </div>
     </div>

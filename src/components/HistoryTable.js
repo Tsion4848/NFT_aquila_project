@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/PagesDesc.css'
 
 const HistoryTable = (Props) => {
@@ -14,7 +15,7 @@ const HistoryTable = (Props) => {
       <tbody className='tableBody'>
         {Props.data.map((item) => (
           <tr key={item.id}>
-            <td>{item.column1}</td>
+            <Link to="/personalInfo" id='link'><td>{item.column1}</td></Link>
             <td>{item.column2}</td>
             <td>{item.column3}</td>
           </tr>
